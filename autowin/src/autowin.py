@@ -2,14 +2,9 @@ from Capsian import *
 import json
 
 
-try:
-    with open("autowin.json", "r") as autowin:
-        global preferences
-        preferences = json.loads(autowin.read())
-except FileNotFoundError:
-    Log.error("No 'autowin.json' file was found. Please create one following the defaults.json file.")
-except Exception as e:
-    raise e
+with open("autowin.json", "r") as autowin:
+    global preferences
+    preferences = json.loads(autowin.read())
 
 
 win_prefs     = preferences["Window"]
