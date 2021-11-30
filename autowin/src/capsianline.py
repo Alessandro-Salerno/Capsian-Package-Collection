@@ -1,5 +1,5 @@
 import Capsian
-from CapsianLine.commands.command import Command
+from   Capsianline.commands.command import Command
 
 
 def get_string(width, height, vsync):
