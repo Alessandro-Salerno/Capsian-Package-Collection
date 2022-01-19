@@ -14,9 +14,9 @@ def get_scripts(name):
 	return dirs
 
 
-class Script(Command):
+class Project6(Command):
 	def __str__(self) -> str:
-		return "script"
+		return "project"
 
 
 	def new(self, name: str):
@@ -57,4 +57,4 @@ class Script(Command):
 		os.system("python main.py" if os.name == "nt" else "python3 main.py")
 
 
-__linecommand__ = Script()
+__linecommand__ = Project()

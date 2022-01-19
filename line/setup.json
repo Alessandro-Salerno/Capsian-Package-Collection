@@ -1,11 +1,11 @@
 {
     "name": "line",
-    "capsian": "#2021.2.6",
-    "version": "1.0.1",
+    "capsian": "#2022.0.1",
+    "version": "1.0.2",
     "description": [
         "This package reintroduces the functionality of the `line` command in previous versions of Capsianline."
     ],
     "files": [
-        "capsianline.py"
+        "Capsianline.py"
     ]
 }

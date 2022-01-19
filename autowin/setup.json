@@ -1,7 +1,7 @@
 {
     "name": "autowin",
-    "capsian": "#2021.2.6",
-    "version": "1.1.1",
+    "capsian": "#2022.0.1",
+    "version": "1.1.2",
     "description": [
         "This package automatically creates a window and a camera.",
         "To do so, it uses information stored in the autowin.json file.",
@@ -9,6 +9,6 @@
     ],
     "files": [
         "autowin.py",
-        "capsianline.py"
+        "Capsianline.py"
     ]
 }

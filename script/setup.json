@@ -1,11 +1,11 @@
 {
     "name": "script",
-    "capsian": "#2021.2.6",
-    "version": "1.0.0",
+    "capsian": "#2022.0.1",
+    "version": "1.0.1",
     "description": [
         "This package handles scripts for Capsian projects"
     ],
     "files": [
-        "capsianline.py"
+        "Capsianline.py"
     ]
 }
