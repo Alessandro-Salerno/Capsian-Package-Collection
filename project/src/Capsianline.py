@@ -14,7 +14,7 @@ def get_scripts(name):
 	return dirs
 
 
-class Project6(Command):
+class Project(Command):
 	def __str__(self) -> str:
 		return "project"
 
