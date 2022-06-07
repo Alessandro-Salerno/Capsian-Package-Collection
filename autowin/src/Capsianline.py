@@ -35,7 +35,7 @@ This command helps you interact with the autowin package.
 	def setup(self, width=1280, height=720, vsync=False):
 		with open("autowin.json", "w") as file:
 			file.write(get_string(width, height, vsync))
-			Capsian.Log.successful(f"Created Windows Setup file with RES:{width}x{height} VSYNC:{vsync}")
+			Capsian.Log.successful(f"Created Window Setup file with RES:{width}x{height} VSYNC:{vsync}")
 
 
 __linecommand__ = Autowin()
